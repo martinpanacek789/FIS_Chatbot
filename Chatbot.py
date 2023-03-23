@@ -34,7 +34,7 @@ st.write("Hey, welcome to the FIS chatbot beta! You can ask me a question below.
 user_input = get_text()
 
 if user_input:
-    #output = query({
+    # output = query({
     #    "inputs": {
     #        "past_user_inputs": st.session_state.past,
     #        "generated_responses": st.session_state.generated,
