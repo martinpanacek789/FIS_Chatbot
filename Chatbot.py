@@ -40,10 +40,10 @@ if user_input:
     #        "generated_responses": st.session_state.generated,
     #        "text": user_input,
     #    },"parameters": {"repetition_penalty": 1.33},
-    #})
+    # })
 
     st.session_state.past.append(user_input)
-    st.session_state.generated.append('Fuck off!')
+    st.session_state.generated.append('Nope!')
 
 if st.session_state['generated']:
 
