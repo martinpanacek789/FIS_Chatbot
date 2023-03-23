@@ -3,7 +3,7 @@ from streamlit_chat import message
 import requests
 
 st.set_page_config(
-    page_title="Fis Chatbot - Demo",
+    page_title="FIS Chatbot - Demo",
     page_icon=":robot:"
 )
 
@@ -43,7 +43,7 @@ if user_input:
     # })
 
     st.session_state.past.append(user_input)
-    st.session_state.generated.append('Nope!')
+    st.session_state.generated.append('I have no idea what you are talking about')
 
 if st.session_state['generated']:
 
